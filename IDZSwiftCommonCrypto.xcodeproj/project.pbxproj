@@ -66,6 +66,11 @@
 		309B66FA1C3F19D900CF76D5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
 		309B66FB1C3F19D900CF76D5 /* IDZSwiftCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCB89B019CE05F800068ED6 /* IDZSwiftCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309B66FC1C3F19D900CF76D5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E6E246987AA009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E6F246987AB009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E70246987AB009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E71246987AC009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E72246987AC009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,7 +135,7 @@
 		0CCB89B919CE05F800068ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDZSwiftCommonCryptoTests.swift; sourceTree = "<group>"; };
 		0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCryptor.swift; sourceTree = "<group>"; };
-		0CCB89C519CE071D00068ED6 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
+		0CCB89C519CE071D00068ED6 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Digest.swift; sourceTree = "<group>"; };
 		0CCB89C619CE071D00068ED6 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
 		0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDerivation.swift; sourceTree = "<group>"; };
 		0CCB89C819CE071D00068ED6 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -536,6 +541,7 @@
 					0CCB89AA19CE05F800068ED6 = {
 						CreatedOnToolsVersion = 6.0.1;
 						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
 					};
 					0CCB89B519CE05F800068ED6 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -721,6 +727,7 @@
 			files = (
 				308499DB1BA78C600025B41D /* CommonCryptoAPITests.m in Sources */,
 				0CCB89BB19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E6E246987AA009AFF6B /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -730,6 +737,7 @@
 			files = (
 				308499AC1BA77BC20025B41D /* ViewController.swift in Sources */,
 				308499AA1BA77BC20025B41D /* AppDelegate.swift in Sources */,
+				4ED16E71246987AC009AFF6B /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -739,6 +747,7 @@
 			files = (
 				308499BF1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
 				308499DC1BA7A4920025B41D /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E72246987AC009AFF6B /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -764,6 +773,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309B66BA1C3F106100CF76D5 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E6F246987AB009AFF6B /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -789,6 +799,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				309B66E21C3F143F00CF76D5 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E70246987AB009AFF6B /* Digest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -983,42 +994,65 @@
 		0CCB89BF19CE05F800068ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				"SDKROOT[arch=*]" = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = build;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
 		0CCB89C019CE05F800068ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				"SDKROOT[arch=*]" = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = build;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
