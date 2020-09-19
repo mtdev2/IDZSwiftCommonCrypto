@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -66,6 +66,215 @@
 		309B66FA1C3F19D900CF76D5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
 		309B66FB1C3F19D900CF76D5 /* IDZSwiftCommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCB89B019CE05F800068ED6 /* IDZSwiftCommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		309B66FC1C3F19D900CF76D5 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E6E246987AA009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E6F246987AB009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E70246987AB009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E71246987AC009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E72246987AC009AFF6B /* Digest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C519CE071D00068ED6 /* Digest.swift */; };
+		4ED16E7324698844009AFF6B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E7424698845009AFF6B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E7524698845009AFF6B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E7624698846009AFF6B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E7724698846009AFF6B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3050B9B31BA9F7C700177A38 /* Crypto.swift */; };
+		4ED16E782469884C009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
+		4ED16E792469884D009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
+		4ED16E7A2469884D009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
+		4ED16E7B2469884E009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
+		4ED16E7C2469884F009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */; };
+		4ED16E7D24698859009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E7E2469885A009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E7F2469885A009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E802469885B009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E812469885C009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E822469885D009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E832469885E009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E842469885E009AFF6B /* CommonCryptoAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */; };
+		4ED16E8524698864009AFF6B /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
+		4ED16E8624698864009AFF6B /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
+		4ED16E8724698865009AFF6B /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
+		4ED16E8824698865009AFF6B /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
+		4ED16E8924698866009AFF6B /* Updateable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3012B11A1BAA237C008504EB /* Updateable.swift */; };
+		4ED16E8A2469886E009AFF6B /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
+		4ED16E8B2469886F009AFF6B /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
+		4ED16E8C2469886F009AFF6B /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
+		4ED16E8D24698870009AFF6B /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
+		4ED16E8E24698871009AFF6B /* Cryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */; };
+		4ED16E8F24698875009AFF6B /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */; };
+		4ED16E9024698876009AFF6B /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */; };
+		4ED16E9124698877009AFF6B /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */; };
+		4ED16E9224698878009AFF6B /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */; };
+		4ED16E9324698878009AFF6B /* StreamCryptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */; };
+		4ED16E942469887C009AFF6B /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C619CE071D00068ED6 /* HMAC.swift */; };
+		4ED16E952469887D009AFF6B /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C619CE071D00068ED6 /* HMAC.swift */; };
+		4ED16E962469887D009AFF6B /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C619CE071D00068ED6 /* HMAC.swift */; };
+		4ED16E972469887E009AFF6B /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C619CE071D00068ED6 /* HMAC.swift */; };
+		4ED16E982469887E009AFF6B /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C619CE071D00068ED6 /* HMAC.swift */; };
+		4ED16E9924698887009AFF6B /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */; };
+		4ED16E9A24698887009AFF6B /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */; };
+		4ED16E9B24698888009AFF6B /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */; };
+		4ED16E9C24698889009AFF6B /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */; };
+		4ED16E9D2469888B009AFF6B /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */; };
+		4ED16E9E2469888F009AFF6B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C819CE071D00068ED6 /* Random.swift */; };
+		4ED16E9F24698890009AFF6B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C819CE071D00068ED6 /* Random.swift */; };
+		4ED16EA024698891009AFF6B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C819CE071D00068ED6 /* Random.swift */; };
+		4ED16EA124698892009AFF6B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C819CE071D00068ED6 /* Random.swift */; };
+		4ED16EA224698892009AFF6B /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89C819CE071D00068ED6 /* Random.swift */; };
+		4ED16EA324698898009AFF6B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67310119D1EB80009828B8 /* Status.swift */; };
+		4ED16EA424698899009AFF6B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67310119D1EB80009828B8 /* Status.swift */; };
+		4ED16EA52469889A009AFF6B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67310119D1EB80009828B8 /* Status.swift */; };
+		4ED16EA62469889A009AFF6B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67310119D1EB80009828B8 /* Status.swift */; };
+		4ED16EA72469889B009AFF6B /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C67310119D1EB80009828B8 /* Status.swift */; };
+		4ED16EA8246988A1009AFF6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
+		4ED16EA9246988A2009AFF6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
+		4ED16EAA246988A3009AFF6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
+		4ED16EAB246988A4009AFF6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
+		4ED16EAC246988A4009AFF6B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCB89D119CF416B00068ED6 /* Utilities.swift */; };
+		4ED16EB6246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EB7246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EB8246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EB9246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EBA246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EBB246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EBC246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EBD246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16EBE246988C3009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16EC0246988C3009AFF6B /* Info.plist */; };
+		4ED16ECB246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ECC246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ECD246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ECE246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ECF246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ED0246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ED1246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ED2246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ED3246988DF009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16ED5246988DF009AFF6B /* Info.plist */; };
+		4ED16ED7246988E6009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16ED8246988E6009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16ED9246988E7009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDA246988E7009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDB246988E8009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDC246988E8009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDD246988E9009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDE246988EA009AFF6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499A91BA77BC20025B41D /* AppDelegate.swift */; };
+		4ED16EDF246988F2009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE0246988F3009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE1246988F3009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE2246988F4009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE3246988F5009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE4246988F5009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE5246988F6009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE6246988F7009AFF6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499AB1BA77BC20025B41D /* ViewController.swift */; };
+		4ED16EE8246988FC009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EE9246988FD009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EEB246988FD009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EEC246988FE009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EED2469890D009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EEE2469890E009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EEF2469890F009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EF024698910009AFF6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499AD1BA77BC20025B41D /* Main.storyboard */; };
+		4ED16EF324698925009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF424698926009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF524698926009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF624698927009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF724698928009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF824698928009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EF924698929009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16EFA24698929009AFF6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 308499B21BA77BC20025B41D /* LaunchScreen.storyboard */; };
+		4ED16F0424698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0524698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0624698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0724698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0824698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0924698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0A24698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0B24698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F0C24698935009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F0E24698935009AFF6B /* Info.plist */; };
+		4ED16F1024698951009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1124698952009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1224698953009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1324698954009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1424698955009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1524698955009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1624698956009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F1724698956009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */; };
+		4ED16F2124698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2224698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2324698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2424698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2524698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2624698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2724698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2824698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2924698965009AFF6B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4ED16F2B24698965009AFF6B /* Info.plist */; };
+		4ED16F2E2469896E009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F2F2469896E009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F302469896F009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F3124698970009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F3224698970009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F3324698971009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F3424698972009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F3524698975009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3624698976009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3724698976009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3824698977009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3924698978009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3A24698978009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3B24698979009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3C24698979009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3D2469897A009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */; };
+		4ED16F3E24698982009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; platformFilter = ios; };
+		4ED16F3F24698982009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4024698983009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4124698983009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4224698984009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; platformFilter = ios; };
+		4ED16F4324698985009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4424698986009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4524698986009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; };
+		4ED16F4624698987009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */ = {isa = PBXBuildFile; fileRef = 308499A71BA77BC20025B41D /* IDZSwiftCommonCryptoTestApp.app */; platformFilter = ios; };
+		4ED16F472469898A009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F482469898B009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F492469898B009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4A2469898C009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4B2469898C009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4C2469898D009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4D2469898D009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4E2469898E009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F4F2469898F009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */; };
+		4ED16F5024698993009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5124698993009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5224698994009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5324698994009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5424698995009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5524698995009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5624698996009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F5724698996009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F582469899A009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F592469899A009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5A2469899B009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5B2469899C009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5C2469899C009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5D2469899D009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5E2469899D009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F5F2469899E009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F602469899E009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */; };
+		4ED16F61246989A3009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F62246989AB009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F63246989AB009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F64246989AC009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F65246989AC009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F66246989AD009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F67246989AD009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F68246989AE009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F69246989AF009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F6A246989AF009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */ = {isa = PBXBuildFile; fileRef = 309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */; };
+		4ED16F6B246989B3009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F6C246989B4009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F6D246989B5009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F6E246989B5009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F6F246989B6009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F70246989B7009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F71246989B7009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F72246989B8009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
+		4ED16F73246989B8009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,13 +333,11 @@
 		0C67310119D1EB80009828B8 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
 		0C9F5B2D19D2948F00E0B5FF /* Cryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cryptor.swift; sourceTree = "<group>"; };
 		0CCB89AB19CE05F800068ED6 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCB89AF19CE05F800068ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCB89B019CE05F800068ED6 /* IDZSwiftCommonCrypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDZSwiftCommonCrypto.h; sourceTree = "<group>"; };
 		0CCB89B619CE05F800068ED6 /* IDZSwiftCommonCryptoTests (iOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (iOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CCB89B919CE05F800068ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CCB89BA19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDZSwiftCommonCryptoTests.swift; sourceTree = "<group>"; };
 		0CCB89C419CE071D00068ED6 /* StreamCryptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamCryptor.swift; sourceTree = "<group>"; };
-		0CCB89C519CE071D00068ED6 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Digest.swift; sourceTree = "<group>"; };
+		0CCB89C519CE071D00068ED6 /* Digest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Digest.swift; sourceTree = "<group>"; };
 		0CCB89C619CE071D00068ED6 /* HMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMAC.swift; sourceTree = "<group>"; };
 		0CCB89C719CE071D00068ED6 /* KeyDerivation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyDerivation.swift; sourceTree = "<group>"; };
 		0CCB89C819CE071D00068ED6 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
@@ -143,16 +350,24 @@
 		308499AE1BA77BC20025B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		308499B01BA77BC20025B41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		308499B31BA77BC20025B41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		308499B51BA77BC20025B41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308499BA1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDZSwiftCommonCryptoTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDZSwiftCommonCryptoTestAppTests.swift; sourceTree = "<group>"; };
-		308499C01BA77BC20025B41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		308499DA1BA78C600025B41D /* CommonCryptoAPITests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCryptoAPITests.m; sourceTree = "<group>"; };
 		309B66961C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		309B669F1C3F04F500CF76D5 /* IDZSwiftCommonCryptoTests (OSX).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (OSX).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		309B66C01C3F13B100CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		309B66C91C3F13B200CF76D5 /* IDZSwiftCommonCryptoTests (tvOS).xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IDZSwiftCommonCryptoTests (tvOS).xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		309B66E91C3F196500CF76D5 /* IDZSwiftCommonCrypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IDZSwiftCommonCrypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ED16EBF246988C3009AFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16EC1246988C6009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16ED4246988DF009AFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16ED6246988E1009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16EEA246988FD009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		4ED16EF224698925009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4ED16F0D24698935009AFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16F0F24698937009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16F2A24698965009AFF6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		4ED16F2C24698967009AFF6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +375,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F61246989A3009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F6B246989B3009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F5024698993009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +385,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5424698995009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F6F246989B6009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F3124698970009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +395,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5624698996009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F72246989B8009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 				308499D51BA77F2B0025B41D /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +405,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5724698996009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F73246989B8009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F3424698972009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +415,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5124698993009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F6C246989B4009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F2E2469896E009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +425,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F3224698970009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F70246989B7009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 				309B66A01C3F04F500CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,6 +435,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5324698994009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F6E246989B5009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F302469896F009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +445,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F71246989B7009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F3324698971009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F5524698995009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 				309B66CA1C3F13B200CF76D5 /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +456,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F5224698994009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F6D246989B5009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
+				4ED16F2F2469896E009AFF6B /* IDZSwiftCommonCrypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +514,7 @@
 		0CCB89AE19CE05F800068ED6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0CCB89AF19CE05F800068ED6 /* Info.plist */,
+				4ED16EC0246988C3009AFF6B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -292,7 +532,7 @@
 		0CCB89B819CE05F800068ED6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0CCB89B919CE05F800068ED6 /* Info.plist */,
+				4ED16ED5246988DF009AFF6B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -305,7 +545,7 @@
 				308499AD1BA77BC20025B41D /* Main.storyboard */,
 				308499B01BA77BC20025B41D /* Assets.xcassets */,
 				308499B21BA77BC20025B41D /* LaunchScreen.storyboard */,
-				308499B51BA77BC20025B41D /* Info.plist */,
+				4ED16F0E24698935009AFF6B /* Info.plist */,
 			);
 			path = IDZSwiftCommonCryptoTestApp;
 			sourceTree = "<group>";
@@ -314,7 +554,7 @@
 			isa = PBXGroup;
 			children = (
 				308499BE1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift */,
-				308499C01BA77BC20025B41D /* Info.plist */,
+				4ED16F2B24698965009AFF6B /* Info.plist */,
 			);
 			path = IDZSwiftCommonCryptoTestAppTests;
 			sourceTree = "<group>";
@@ -603,6 +843,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EE8246988FC009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF324698925009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2124698965009AFF6B /* Info.plist in Resources */,
+				4ED16F472469898A009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F62246989AB009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ECB246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0424698935009AFF6B /* Info.plist in Resources */,
+				4ED16F3E24698982009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F582469899A009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3524698975009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EB6246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,6 +861,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EED2469890D009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF724698928009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2524698965009AFF6B /* Info.plist in Resources */,
+				4ED16F4B2469898C009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F66246989AD009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ECF246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0824698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4224698984009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F5C2469899C009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3924698978009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EBA246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,9 +879,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EBD246988C3009AFF6B /* Info.plist in Resources */,
 				308499B41BA77BC20025B41D /* LaunchScreen.storyboard in Resources */,
+				4ED16F0B24698935009AFF6B /* Info.plist in Resources */,
+				4ED16F5F2469899E009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
 				308499B11BA77BC20025B41D /* Assets.xcassets in Resources */,
+				4ED16F3C24698979009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16F69246989AF009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ED2246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F4524698986009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
 				308499AF1BA77BC20025B41D /* Main.storyboard in Resources */,
+				4ED16F4E2469898E009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F2824698965009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +898,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EF024698910009AFF6B /* Main.storyboard in Resources */,
+				4ED16EFA24698929009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2924698965009AFF6B /* Info.plist in Resources */,
+				4ED16F4F2469898F009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F6A246989AF009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ED3246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0C24698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4624698987009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F602469899E009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3D2469897A009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EBE246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,6 +916,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EE9246988FD009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF424698926009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2224698965009AFF6B /* Info.plist in Resources */,
+				4ED16F482469898B009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F63246989AB009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ECC246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0524698935009AFF6B /* Info.plist in Resources */,
+				4ED16F3F24698982009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F592469899A009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3624698976009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EB7246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -641,6 +934,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EEE2469890E009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF824698928009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2624698965009AFF6B /* Info.plist in Resources */,
+				4ED16F4C2469898D009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F67246989AD009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ED0246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0924698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4324698985009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F5D2469899D009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3A24698978009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EBB246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +952,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EEC246988FE009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF624698927009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2424698965009AFF6B /* Info.plist in Resources */,
+				4ED16F4A2469898C009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F65246989AC009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ECE246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0724698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4124698983009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F5B2469899C009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3824698977009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EB9246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -655,6 +970,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EEF2469890F009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF924698929009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2724698965009AFF6B /* Info.plist in Resources */,
+				4ED16F4D2469898D009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F68246989AE009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ED1246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0A24698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4424698986009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F5E2469899D009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3B24698979009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EBC246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +988,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EEB246988FD009AFF6B /* Main.storyboard in Resources */,
+				4ED16EF524698926009AFF6B /* LaunchScreen.storyboard in Resources */,
+				4ED16F2324698965009AFF6B /* Info.plist in Resources */,
+				4ED16F492469898B009AFF6B /* IDZSwiftCommonCryptoTestAppTests.xctest in Resources */,
+				4ED16F64246989AC009AFF6B /* IDZSwiftCommonCryptoTests (tvOS).xctest in Resources */,
+				4ED16ECD246988DF009AFF6B /* Info.plist in Resources */,
+				4ED16F0624698935009AFF6B /* Info.plist in Resources */,
+				4ED16F4024698983009AFF6B /* IDZSwiftCommonCryptoTestApp.app in Resources */,
+				4ED16F5A2469899B009AFF6B /* IDZSwiftCommonCryptoTests (OSX).xctest in Resources */,
+				4ED16F3724698976009AFF6B /* IDZSwiftCommonCryptoTests (iOS).xctest in Resources */,
+				4ED16EB8246988C3009AFF6B /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,13 +1039,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1024698951009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
 				0CCB89D219CF416B00068ED6 /* Utilities.swift in Sources */,
+				4ED16E782469884C009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */,
 				0CCB89CC19CE071D00068ED6 /* KeyDerivation.swift in Sources */,
 				0C67310219D1EB80009828B8 /* Status.swift in Sources */,
+				4ED16EDF246988F2009AFF6B /* ViewController.swift in Sources */,
 				2F3CB6F61D8F9297005F511D /* StreamCryptor.swift in Sources */,
 				3050B9B41BA9F7C700177A38 /* Crypto.swift in Sources */,
 				3012B11B1BAA237C008504EB /* Updateable.swift in Sources */,
 				0CCB89CD19CE071D00068ED6 /* Random.swift in Sources */,
+				4ED16ED7246988E6009AFF6B /* AppDelegate.swift in Sources */,
+				4ED16E7D24698859009AFF6B /* CommonCryptoAPITests.m in Sources */,
 				0CCB89CA19CE071D00068ED6 /* Digest.swift in Sources */,
 				0CCB89CB19CE071D00068ED6 /* HMAC.swift in Sources */,
 				2F3CB6F21D8F9290005F511D /* Cryptor.swift in Sources */,
@@ -719,8 +1061,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1424698955009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
+				4ED16E8F24698875009AFF6B /* StreamCryptor.swift in Sources */,
+				4ED16E9924698887009AFF6B /* KeyDerivation.swift in Sources */,
+				4ED16E9E2469888F009AFF6B /* Random.swift in Sources */,
+				4ED16E7324698844009AFF6B /* Crypto.swift in Sources */,
+				4ED16EE3246988F5009AFF6B /* ViewController.swift in Sources */,
+				4ED16EA324698898009AFF6B /* Status.swift in Sources */,
+				4ED16E8524698864009AFF6B /* Updateable.swift in Sources */,
+				4ED16EA8246988A1009AFF6B /* Utilities.swift in Sources */,
 				308499DB1BA78C600025B41D /* CommonCryptoAPITests.m in Sources */,
+				4ED16EDB246988E8009AFF6B /* AppDelegate.swift in Sources */,
 				0CCB89BB19CE05F800068ED6 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E6E246987AA009AFF6B /* Digest.swift in Sources */,
+				4ED16E942469887C009AFF6B /* HMAC.swift in Sources */,
+				4ED16E8A2469886E009AFF6B /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,8 +1083,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1724698956009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
+				4ED16E8824698865009AFF6B /* Updateable.swift in Sources */,
+				4ED16E9224698878009AFF6B /* StreamCryptor.swift in Sources */,
+				4ED16EAB246988A4009AFF6B /* Utilities.swift in Sources */,
+				4ED16E7624698846009AFF6B /* Crypto.swift in Sources */,
 				308499AC1BA77BC20025B41D /* ViewController.swift in Sources */,
+				4ED16E8D24698870009AFF6B /* Cryptor.swift in Sources */,
+				4ED16E832469885E009AFF6B /* CommonCryptoAPITests.m in Sources */,
+				4ED16E972469887E009AFF6B /* HMAC.swift in Sources */,
 				308499AA1BA77BC20025B41D /* AppDelegate.swift in Sources */,
+				4ED16EA124698892009AFF6B /* Random.swift in Sources */,
+				4ED16EA62469889A009AFF6B /* Status.swift in Sources */,
+				4ED16E9C24698889009AFF6B /* KeyDerivation.swift in Sources */,
+				4ED16E71246987AC009AFF6B /* Digest.swift in Sources */,
+				4ED16E7C2469884F009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -737,8 +1105,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16EE6246988F7009AFF6B /* ViewController.swift in Sources */,
+				4ED16E7724698846009AFF6B /* Crypto.swift in Sources */,
 				308499BF1BA77BC20025B41D /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
+				4ED16E9D2469888B009AFF6B /* KeyDerivation.swift in Sources */,
+				4ED16E982469887E009AFF6B /* HMAC.swift in Sources */,
+				4ED16EDE246988EA009AFF6B /* AppDelegate.swift in Sources */,
+				4ED16EAC246988A4009AFF6B /* Utilities.swift in Sources */,
+				4ED16E842469885E009AFF6B /* CommonCryptoAPITests.m in Sources */,
 				308499DC1BA7A4920025B41D /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E8E24698871009AFF6B /* Cryptor.swift in Sources */,
+				4ED16E9324698878009AFF6B /* StreamCryptor.swift in Sources */,
+				4ED16E8924698866009AFF6B /* Updateable.swift in Sources */,
+				4ED16E72246987AC009AFF6B /* Digest.swift in Sources */,
+				4ED16EA224698892009AFF6B /* Random.swift in Sources */,
+				4ED16EA72469889B009AFF6B /* Status.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -746,13 +1127,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1124698952009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
 				309B66AF1C3F073D00CF76D5 /* Updateable.swift in Sources */,
+				4ED16E792469884D009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */,
 				309B66B31C3F073D00CF76D5 /* HMAC.swift in Sources */,
 				309B66B91C3F073D00CF76D5 /* Crypto.swift in Sources */,
+				4ED16EE0246988F3009AFF6B /* ViewController.swift in Sources */,
 				2F3CB6F71D8F9297005F511D /* StreamCryptor.swift in Sources */,
 				309B66B61C3F073D00CF76D5 /* Status.swift in Sources */,
 				309B66B01C3F073D00CF76D5 /* Digest.swift in Sources */,
 				309B66B41C3F073D00CF76D5 /* KeyDerivation.swift in Sources */,
+				4ED16ED8246988E6009AFF6B /* AppDelegate.swift in Sources */,
+				4ED16E7E2469885A009AFF6B /* CommonCryptoAPITests.m in Sources */,
 				309B66B71C3F073D00CF76D5 /* Utilities.swift in Sources */,
 				309B66B51C3F073D00CF76D5 /* Random.swift in Sources */,
 				2F3CB6F31D8F9291005F511D /* Cryptor.swift in Sources */,
@@ -763,7 +1149,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1524698955009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
+				4ED16E9024698876009AFF6B /* StreamCryptor.swift in Sources */,
+				4ED16E9A24698887009AFF6B /* KeyDerivation.swift in Sources */,
+				4ED16E9F24698890009AFF6B /* Random.swift in Sources */,
+				4ED16E812469885C009AFF6B /* CommonCryptoAPITests.m in Sources */,
+				4ED16EE4246988F5009AFF6B /* ViewController.swift in Sources */,
+				4ED16EA424698899009AFF6B /* Status.swift in Sources */,
+				4ED16E8624698864009AFF6B /* Updateable.swift in Sources */,
+				4ED16EA9246988A2009AFF6B /* Utilities.swift in Sources */,
+				4ED16E7424698845009AFF6B /* Crypto.swift in Sources */,
+				4ED16EDC246988E8009AFF6B /* AppDelegate.swift in Sources */,
 				309B66BA1C3F106100CF76D5 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E6F246987AB009AFF6B /* Digest.swift in Sources */,
+				4ED16E952469887D009AFF6B /* HMAC.swift in Sources */,
+				4ED16E8B2469886F009AFF6B /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -771,13 +1171,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1324698954009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
 				309B66D71C3F13F800CF76D5 /* Updateable.swift in Sources */,
+				4ED16E7B2469884E009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */,
 				309B66DB1C3F13F800CF76D5 /* HMAC.swift in Sources */,
 				309B66E11C3F13F800CF76D5 /* Crypto.swift in Sources */,
+				4ED16EE2246988F4009AFF6B /* ViewController.swift in Sources */,
 				2F3CB6F91D8F9298005F511D /* StreamCryptor.swift in Sources */,
 				309B66DE1C3F13F800CF76D5 /* Status.swift in Sources */,
 				309B66D81C3F13F800CF76D5 /* Digest.swift in Sources */,
 				309B66DC1C3F13F800CF76D5 /* KeyDerivation.swift in Sources */,
+				4ED16EDA246988E7009AFF6B /* AppDelegate.swift in Sources */,
+				4ED16E802469885B009AFF6B /* CommonCryptoAPITests.m in Sources */,
 				309B66DF1C3F13F800CF76D5 /* Utilities.swift in Sources */,
 				309B66DD1C3F13F800CF76D5 /* Random.swift in Sources */,
 				2F3CB6F51D8F9292005F511D /* Cryptor.swift in Sources */,
@@ -788,7 +1193,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1624698956009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
+				4ED16E9124698877009AFF6B /* StreamCryptor.swift in Sources */,
+				4ED16E9B24698888009AFF6B /* KeyDerivation.swift in Sources */,
+				4ED16EA024698891009AFF6B /* Random.swift in Sources */,
+				4ED16E822469885D009AFF6B /* CommonCryptoAPITests.m in Sources */,
+				4ED16EE5246988F6009AFF6B /* ViewController.swift in Sources */,
+				4ED16EA52469889A009AFF6B /* Status.swift in Sources */,
+				4ED16E8724698865009AFF6B /* Updateable.swift in Sources */,
+				4ED16EAA246988A3009AFF6B /* Utilities.swift in Sources */,
+				4ED16E7524698845009AFF6B /* Crypto.swift in Sources */,
+				4ED16EDD246988E9009AFF6B /* AppDelegate.swift in Sources */,
 				309B66E21C3F143F00CF76D5 /* IDZSwiftCommonCryptoTests.swift in Sources */,
+				4ED16E70246987AB009AFF6B /* Digest.swift in Sources */,
+				4ED16E962469887D009AFF6B /* HMAC.swift in Sources */,
+				4ED16E8C2469886F009AFF6B /* Cryptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -796,13 +1215,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED16F1224698953009AFF6B /* IDZSwiftCommonCryptoTestAppTests.swift in Sources */,
 				309B66F21C3F19D900CF76D5 /* Updateable.swift in Sources */,
+				4ED16E7A2469884D009AFF6B /* IDZSwiftCommonCryptoTests.swift in Sources */,
 				309B66F61C3F19D900CF76D5 /* HMAC.swift in Sources */,
 				309B66FC1C3F19D900CF76D5 /* Crypto.swift in Sources */,
+				4ED16EE1246988F3009AFF6B /* ViewController.swift in Sources */,
 				2F3CB6F81D8F9298005F511D /* StreamCryptor.swift in Sources */,
 				309B66F91C3F19D900CF76D5 /* Status.swift in Sources */,
 				309B66F31C3F19D900CF76D5 /* Digest.swift in Sources */,
 				309B66F71C3F19D900CF76D5 /* KeyDerivation.swift in Sources */,
+				4ED16ED9246988E7009AFF6B /* AppDelegate.swift in Sources */,
+				4ED16E7F2469885A009AFF6B /* CommonCryptoAPITests.m in Sources */,
 				309B66FA1C3F19D900CF76D5 /* Utilities.swift in Sources */,
 				309B66F81C3F19D900CF76D5 /* Random.swift in Sources */,
 				2F3CB6F41D8F9291005F511D /* Cryptor.swift in Sources */,
@@ -844,6 +1268,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				308499AE1BA77BC20025B41D /* Base */,
+				4ED16EEA246988FD009AFF6B /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -852,8 +1277,45 @@
 			isa = PBXVariantGroup;
 			children = (
 				308499B31BA77BC20025B41D /* Base */,
+				4ED16EF224698925009AFF6B /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		4ED16EC0246988C3009AFF6B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED16EBF246988C3009AFF6B /* Base */,
+				4ED16EC1246988C6009AFF6B /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		4ED16ED5246988DF009AFF6B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED16ED4246988DF009AFF6B /* Base */,
+				4ED16ED6246988E1009AFF6B /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		4ED16F0E24698935009AFF6B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED16F0D24698935009AFF6B /* Base */,
+				4ED16F0F24698937009AFF6B /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		4ED16F2B24698965009AFF6B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ED16F2A24698965009AFF6B /* Base */,
+				4ED16F2C24698967009AFF6B /* en */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -862,163 +1324,646 @@
 		0CCB89BC19CE05F800068ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"BUILD_VARIANTS[sdk=*]" = normal;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES[arch=*]" = YES;
+				"CLANG_ANALYZER_DEADCODE_DEADSTORES[arch=*]" = YES;
+				"CLANG_ANALYZER_GCD[arch=*]" = YES;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				"CLANG_ANALYZER_GCD_PERFORMANCE[arch=*]" = YES;
+				"CLANG_ANALYZER_LIBKERN_RETAIN_COUNT[arch=*]" = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				"CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT[arch=*]" = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				"CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED[arch=*]" = YES;
+				"CLANG_ANALYZER_MEMORY_MANAGEMENT[arch=*]" = "$(CLANG_ANALYZER_MALLOC)";
+				"CLANG_ANALYZER_MIG_CONVENTIONS[arch=*]" = YES;
+				"CLANG_ANALYZER_NONNULL[arch=*]" = YES_NONAGGRESSIVE;
+				"CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_ATSYNC[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_COLLECTIONS[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_DEALLOC[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_GENERICS[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_NSCFERROR[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_RETAIN_COUNT[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_SELF_INIT[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_UNUSED_IVARS[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				"CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_KEYCHAIN_API[arch=*]" = YES;
+				"CLANG_ANALYZER_USE_AFTER_MOVE[arch=*]" = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CLANG_CXX_LANGUAGE_STANDARD[arch=*]" = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				"CLANG_CXX_LIBRARY[arch=*]" = "libc++";
+				"CLANG_ENABLE_CPP_STATIC_DESTRUCTORS[arch=*]" = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CLANG_ENABLE_MODULES[arch=*]" = YES;
+				"CLANG_ENABLE_MODULE_DEBUGGING[arch=*]" = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CLANG_ENABLE_OBJC_ARC[arch=*]" = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CLANG_ENABLE_OBJC_WEAK[arch=*]" = YES;
+				"CLANG_LINK_OBJC_RUNTIME[arch=*]" = YES;
+				"CLANG_MODULES_AUTOLINK[arch=*]" = YES;
+				CLANG_MODULES_DISABLE_PRIVATE_WARNING = YES;
+				"CLANG_MODULES_DISABLE_PRIVATE_WARNING[arch=*]" = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				"CLANG_STATIC_ANALYZER_MODE[arch=*]" = deep;
+				"CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION[arch=*]" = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				"CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER[arch=*]" = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				"CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY[arch=*]" = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				"CLANG_WARN_ASSIGN_ENUM[arch=*]" = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				"CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST[arch=*]" = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING[arch=*]" = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				"CLANG_WARN_BOOL_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_COMMA = YES;
+				"CLANG_WARN_COMMA[arch=*]" = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				"CLANG_WARN_CONSTANT_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				"CLANG_WARN_CXX0X_EXTENSIONS[arch=*]" = YES;
+				"CLANG_WARN_DELETE_NON_VIRTUAL_DTOR[arch=*]" = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS[arch=*]" = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				"CLANG_WARN_DIRECT_OBJC_ISA_USAGE[arch=*]" = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CLANG_WARN_DOCUMENTATION_COMMENTS[arch=*]" = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				"CLANG_WARN_EMPTY_BODY[arch=*]" = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				"CLANG_WARN_ENUM_CONVERSION[arch=*]" = YES;
+				"CLANG_WARN_FLOAT_CONVERSION[arch=*]" = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				"CLANG_WARN_IMPLICIT_SIGN_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
+				"CLANG_WARN_INFINITE_RECURSION[arch=*]" = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				"CLANG_WARN_INT_CONVERSION[arch=*]" = YES;
+				"CLANG_WARN_MISSING_NOESCAPE[arch=*]" = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				"CLANG_WARN_NON_LITERAL_NULL_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				"CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE[arch=*]" = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				"CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES[arch=*]" = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF[arch=*]" = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES;
+				"CLANG_WARN_OBJC_INTERFACE_IVARS[arch=*]" = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				"CLANG_WARN_OBJC_LITERAL_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				"CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS[arch=*]" = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				"CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK[arch=*]" = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CLANG_WARN_OBJC_ROOT_CLASS[arch=*]" = YES_ERROR;
+				"CLANG_WARN_PRAGMA_PACK[arch=*]" = YES;
+				"CLANG_WARN_PRIVATE_MODULE[arch=*]" = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER[arch=*]" = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				"CLANG_WARN_RANGE_LOOP_ANALYSIS[arch=*]" = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				"CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY[arch=*]" = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				"CLANG_WARN_STRICT_PROTOTYPES[arch=*]" = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CLANG_WARN_SUSPICIOUS_MOVE[arch=*]" = YES;
+				"CLANG_WARN_UNGUARDED_AVAILABILITY[arch=*]" = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CLANG_WARN_UNREACHABLE_CODE[arch=*]" = YES;
+				"CLANG_WARN_VEXING_PARSE[arch=*]" = YES;
+				"CLANG_WARN__ARC_BRIDGE_CAST_NONARC[arch=*]" = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CLANG_WARN__DUPLICATE_METHOD_MATCH[arch=*]" = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				"CLANG_WARN__EXIT_TIME_DESTRUCTORS[arch=*]" = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
+				"DEBUG_INFORMATION_FORMAT[sdk=*]" = "dwarf-with-dsym";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				ENABLE_INCREMENTAL_DISTILL = YES;
+				"ENABLE_NS_ASSERTIONS[arch=*]" = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"ENABLE_STRICT_OBJC_MSGSEND[arch=*]" = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				"GCC_CHAR_IS_UNSIGNED_CHAR[arch=*]" = YES;
+				"GCC_CW_ASM_SYNTAX[arch=*]" = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				"GCC_C_LANGUAGE_STANDARD[arch=*]" = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				"GCC_ENABLE_ASM_KEYWORD[arch=*]" = YES;
+				"GCC_ENABLE_BUILTIN_FUNCTIONS[arch=*]" = YES;
+				"GCC_ENABLE_CPP_EXCEPTIONS[arch=*]" = YES;
+				"GCC_ENABLE_CPP_RTTI[arch=*]" = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				"GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS[arch=*]" = YES;
+				"GCC_ENABLE_OBJC_EXCEPTIONS[arch=*]" = YES;
+				"GCC_ENABLE_PASCAL_STRINGS[arch=*]" = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				"GCC_ENABLE_TRIGRAPHS[arch=*]" = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				"GCC_INPUT_FILETYPE[arch=*]" = automatic;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				"GCC_LINK_WITH_DYNAMIC_LIBRARIES[arch=*]" = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "";
+				GCC_SHORT_ENUMS = YES;
+				"GCC_SHORT_ENUMS[arch=*]" = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
+				"GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS[arch=*]" = NO;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = NO;
+				"GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				"GCC_TREAT_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				GCC_UNROLL_LOOPS = YES;
+				"GCC_USE_STANDARD_INCLUDE_SEARCHING[arch=*]" = YES;
+				"GCC_VERSION[arch=*]" = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*]" = YES;
+				"GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS[arch=*]" = YES;
+				"GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				"GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				"GCC_WARN_ABOUT_MISSING_NEWLINE[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				"GCC_WARN_ABOUT_MISSING_PROTOTYPES[arch=*]" = YES;
+				"GCC_WARN_ABOUT_POINTER_SIGNEDNESS[arch=*]" = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				"GCC_WARN_ABOUT_RETURN_TYPE[arch=*]" = YES_ERROR;
+				"GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL[arch=*]" = YES;
+				"GCC_WARN_CHECK_SWITCH_STATEMENTS[arch=*]" = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				"GCC_WARN_FOUR_CHARACTER_CONSTANTS[arch=*]" = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				"GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS[arch=*]" = YES;
+				"GCC_WARN_INHIBIT_ALL_WARNINGS[arch=*]" = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				"GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED[arch=*]" = YES;
+				"GCC_WARN_MISSING_PARENTHESES[arch=*]" = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				"GCC_WARN_NON_VIRTUAL_DESTRUCTOR[arch=*]" = YES;
+				"GCC_WARN_PEDANTIC[arch=*]" = NO;
+				GCC_WARN_SHADOW = YES;
+				"GCC_WARN_SHADOW[arch=*]" = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				"GCC_WARN_SIGN_COMPARE[arch=*]" = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				"GCC_WARN_STRICT_SELECTOR_MATCH[arch=*]" = YES;
+				"GCC_WARN_TYPECHECK_CALLS_TO_PRINTF[arch=*]" = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				"GCC_WARN_UNDECLARED_SELECTOR[arch=*]" = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				"GCC_WARN_UNINITIALIZED_AUTOS[arch=*]" = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				"GCC_WARN_UNKNOWN_PRAGMAS[arch=*]" = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				"GCC_WARN_UNUSED_FUNCTION[arch=*]" = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				"GCC_WARN_UNUSED_LABEL[arch=*]" = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				"GCC_WARN_UNUSED_PARAMETER[arch=*]" = YES;
+				"GCC_WARN_UNUSED_VALUE[arch=*]" = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				"GCC_WARN_UNUSED_VARIABLE[arch=*]" = YES;
+				GENERATE_PROFILING_CODE = YES;
+				"GENERATE_PROFILING_CODE[sdk=*]" = YES;
+				"INCLUDED_SOURCE_FILE_NAMES[arch=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				"RUN_CLANG_STATIC_ANALYZER[arch=*]" = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"SDKROOT[arch=*]" = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "";
+				"SWIFT_COMPILATION_MODE[arch=*]" = singlefile;
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				"SWIFT_DISABLE_SAFETY_CHECKS[arch=*]" = YES;
+				"SWIFT_ENFORCE_EXCLUSIVE_ACCESS[arch=*]" = on;
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
+				"SWIFT_INSTALL_OBJC_HEADER[arch=*]" = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
+				"SWIFT_OBJC_INTERFACE_HEADER_NAME[arch=*]" = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-O";
+				"SWIFT_PRECOMPILE_BRIDGING_HEADER[arch=*]" = YES;
+				"SWIFT_REFLECTION_METADATA_LEVEL[arch=*]" = all;
+				"SWIFT_SUPPRESS_WARNINGS[arch=*]" = NO;
+				"SWIFT_SWIFT3_OBJC_INFERENCE[arch=*]" = Default;
+				"SWIFT_TREAT_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				"SWIFT_VERSION[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				"WARNING_CFLAGS[arch=*]" = "";
 			};
 			name = Debug;
 		};
 		0CCB89BD19CE05F800068ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = NO;
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				"BUILD_VARIANTS[sdk=*]" = normal;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				"CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES[arch=*]" = YES;
+				"CLANG_ANALYZER_DEADCODE_DEADSTORES[arch=*]" = YES;
+				"CLANG_ANALYZER_GCD[arch=*]" = YES;
+				CLANG_ANALYZER_GCD_PERFORMANCE = YES;
+				"CLANG_ANALYZER_GCD_PERFORMANCE[arch=*]" = YES;
+				"CLANG_ANALYZER_LIBKERN_RETAIN_COUNT[arch=*]" = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT = YES;
+				"CLANG_ANALYZER_LOCALIZABILITY_EMPTY_CONTEXT[arch=*]" = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				"CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED[arch=*]" = YES;
+				"CLANG_ANALYZER_MEMORY_MANAGEMENT[arch=*]" = "$(CLANG_ANALYZER_MALLOC)";
+				"CLANG_ANALYZER_MIG_CONVENTIONS[arch=*]" = YES;
+				"CLANG_ANALYZER_NONNULL[arch=*]" = YES_NONAGGRESSIVE;
+				"CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_ATSYNC[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_COLLECTIONS[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_DEALLOC[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_GENERICS[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_INCOMP_METHOD_TYPES[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_NSCFERROR[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_RETAIN_COUNT[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_SELF_INIT[arch=*]" = YES;
+				"CLANG_ANALYZER_OBJC_UNUSED_IVARS[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES;
+				"CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_GETPW_GETS[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_MKSTEMP[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_RAND[arch=*]" = YES;
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_UNCHECKEDRETURN[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_INSECUREAPI_VFORK[arch=*]" = YES;
+				"CLANG_ANALYZER_SECURITY_KEYCHAIN_API[arch=*]" = YES;
+				"CLANG_ANALYZER_USE_AFTER_MOVE[arch=*]" = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				"CLANG_CXX_LANGUAGE_STANDARD[arch=*]" = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				"CLANG_CXX_LIBRARY[arch=*]" = "libc++";
 				CLANG_ENABLE_CODE_COVERAGE = NO;
+				"CLANG_ENABLE_CPP_STATIC_DESTRUCTORS[arch=*]" = YES;
 				CLANG_ENABLE_MODULES = YES;
+				"CLANG_ENABLE_MODULES[arch=*]" = YES;
+				"CLANG_ENABLE_MODULE_DEBUGGING[arch=*]" = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CLANG_ENABLE_OBJC_ARC[arch=*]" = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				"CLANG_ENABLE_OBJC_WEAK[arch=*]" = YES;
+				"CLANG_LINK_OBJC_RUNTIME[arch=*]" = YES;
+				"CLANG_MODULES_AUTOLINK[arch=*]" = YES;
+				CLANG_MODULES_DISABLE_PRIVATE_WARNING = YES;
+				"CLANG_MODULES_DISABLE_PRIVATE_WARNING[arch=*]" = YES;
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				"CLANG_STATIC_ANALYZER_MODE[arch=*]" = deep;
+				"CLANG_STATIC_ANALYZER_MODE_ON_ANALYZE_ACTION[arch=*]" = deep;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER = YES;
+				"CLANG_UNDEFINED_BEHAVIOR_SANITIZER_INTEGER[arch=*]" = YES;
+				CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY = YES;
+				"CLANG_UNDEFINED_BEHAVIOR_SANITIZER_NULLABILITY[arch=*]" = YES;
+				CLANG_WARN_ASSIGN_ENUM = YES;
+				"CLANG_WARN_ASSIGN_ENUM[arch=*]" = YES;
+				CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST = YES;
+				"CLANG_WARN_ATOMIC_IMPLICIT_SEQ_CST[arch=*]" = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				"CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING[arch=*]" = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				"CLANG_WARN_BOOL_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_COMMA = YES;
+				"CLANG_WARN_COMMA[arch=*]" = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				"CLANG_WARN_CONSTANT_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				"CLANG_WARN_CXX0X_EXTENSIONS[arch=*]" = YES;
+				"CLANG_WARN_DELETE_NON_VIRTUAL_DTOR[arch=*]" = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				"CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS[arch=*]" = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				"CLANG_WARN_DIRECT_OBJC_ISA_USAGE[arch=*]" = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				"CLANG_WARN_DOCUMENTATION_COMMENTS[arch=*]" = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
+				"CLANG_WARN_EMPTY_BODY[arch=*]" = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				"CLANG_WARN_ENUM_CONVERSION[arch=*]" = YES;
+				"CLANG_WARN_FLOAT_CONVERSION[arch=*]" = "$(CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION)";
+				CLANG_WARN_IMPLICIT_SIGN_CONVERSION = YES;
+				"CLANG_WARN_IMPLICIT_SIGN_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
+				"CLANG_WARN_INFINITE_RECURSION[arch=*]" = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				"CLANG_WARN_INT_CONVERSION[arch=*]" = YES;
+				"CLANG_WARN_MISSING_NOESCAPE[arch=*]" = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				"CLANG_WARN_NON_LITERAL_NULL_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE = YES;
+				"CLANG_WARN_OBJC_EXPLICIT_OWNERSHIP_TYPE[arch=*]" = YES;
+				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
+				"CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES[arch=*]" = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				"CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF[arch=*]" = YES;
+				CLANG_WARN_OBJC_INTERFACE_IVARS = YES;
+				"CLANG_WARN_OBJC_INTERFACE_IVARS[arch=*]" = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				"CLANG_WARN_OBJC_LITERAL_CONVERSION[arch=*]" = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				"CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS[arch=*]" = YES;
+				CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK = YES;
+				"CLANG_WARN_OBJC_REPEATED_USE_OF_WEAK[arch=*]" = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				"CLANG_WARN_OBJC_ROOT_CLASS[arch=*]" = YES_ERROR;
+				"CLANG_WARN_PRAGMA_PACK[arch=*]" = YES;
+				"CLANG_WARN_PRIVATE_MODULE[arch=*]" = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				"CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER[arch=*]" = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				"CLANG_WARN_RANGE_LOOP_ANALYSIS[arch=*]" = YES;
+				CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY = YES;
+				"CLANG_WARN_SEMICOLON_BEFORE_METHOD_BODY[arch=*]" = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				"CLANG_WARN_STRICT_PROTOTYPES[arch=*]" = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				"CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION[arch=*]" = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CLANG_WARN_SUSPICIOUS_MOVE[arch=*]" = YES;
+				"CLANG_WARN_UNGUARDED_AVAILABILITY[arch=*]" = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
+				"CLANG_WARN_UNREACHABLE_CODE[arch=*]" = YES;
+				"CLANG_WARN_VEXING_PARSE[arch=*]" = YES;
+				"CLANG_WARN__ARC_BRIDGE_CAST_NONARC[arch=*]" = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CLANG_WARN__DUPLICATE_METHOD_MATCH[arch=*]" = YES;
+				CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES;
+				"CLANG_WARN__EXIT_TIME_DESTRUCTORS[arch=*]" = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_NS_ASSERTIONS = NO;
+				"DEBUG_INFORMATION_FORMAT[sdk=*]" = "dwarf-with-dsym";
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
+				ENABLE_INCREMENTAL_DISTILL = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				"ENABLE_NS_ASSERTIONS[arch=*]" = YES;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"ENABLE_STRICT_OBJC_MSGSEND[arch=*]" = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				"EXCLUDED_SOURCE_FILE_NAMES[arch=*]" = "";
 				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_CHAR_IS_UNSIGNED_CHAR = YES;
+				"GCC_CHAR_IS_UNSIGNED_CHAR[arch=*]" = YES;
+				"GCC_CW_ASM_SYNTAX[arch=*]" = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				"GCC_C_LANGUAGE_STANDARD[arch=*]" = gnu99;
+				"GCC_ENABLE_ASM_KEYWORD[arch=*]" = YES;
+				"GCC_ENABLE_BUILTIN_FUNCTIONS[arch=*]" = YES;
+				"GCC_ENABLE_CPP_EXCEPTIONS[arch=*]" = YES;
+				"GCC_ENABLE_CPP_RTTI[arch=*]" = YES;
+				GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS = YES;
+				"GCC_ENABLE_FLOATING_POINT_LIBRARY_CALLS[arch=*]" = YES;
+				"GCC_ENABLE_OBJC_EXCEPTIONS[arch=*]" = YES;
+				"GCC_ENABLE_PASCAL_STRINGS[arch=*]" = YES;
+				GCC_ENABLE_TRIGRAPHS = YES;
+				"GCC_ENABLE_TRIGRAPHS[arch=*]" = YES;
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				"GCC_INPUT_FILETYPE[arch=*]" = automatic;
 				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO;
+				"GCC_LINK_WITH_DYNAMIC_LIBRARIES[arch=*]" = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "";
+				GCC_SHORT_ENUMS = YES;
+				"GCC_SHORT_ENUMS[arch=*]" = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = NO;
+				"GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS[arch=*]" = NO;
+				GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS = NO;
+				"GCC_TREAT_INCOMPATIBLE_POINTER_TYPE_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				"GCC_TREAT_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				GCC_UNROLL_LOOPS = YES;
+				"GCC_USE_STANDARD_INCLUDE_SEARCHING[arch=*]" = YES;
+				"GCC_VERSION[arch=*]" = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*]" = YES;
+				"GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS[arch=*]" = YES;
+				"GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				"GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				"GCC_WARN_ABOUT_MISSING_NEWLINE[arch=*]" = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				"GCC_WARN_ABOUT_MISSING_PROTOTYPES[arch=*]" = YES;
+				"GCC_WARN_ABOUT_POINTER_SIGNEDNESS[arch=*]" = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				"GCC_WARN_ABOUT_RETURN_TYPE[arch=*]" = YES_ERROR;
+				"GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL[arch=*]" = YES;
+				"GCC_WARN_CHECK_SWITCH_STATEMENTS[arch=*]" = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				"GCC_WARN_FOUR_CHARACTER_CONSTANTS[arch=*]" = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				"GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS[arch=*]" = YES;
+				"GCC_WARN_INHIBIT_ALL_WARNINGS[arch=*]" = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				"GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED[arch=*]" = YES;
+				"GCC_WARN_MISSING_PARENTHESES[arch=*]" = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				"GCC_WARN_NON_VIRTUAL_DESTRUCTOR[arch=*]" = YES;
+				"GCC_WARN_PEDANTIC[arch=*]" = NO;
+				GCC_WARN_SHADOW = YES;
+				"GCC_WARN_SHADOW[arch=*]" = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				"GCC_WARN_SIGN_COMPARE[arch=*]" = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				"GCC_WARN_STRICT_SELECTOR_MATCH[arch=*]" = YES;
+				"GCC_WARN_TYPECHECK_CALLS_TO_PRINTF[arch=*]" = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				"GCC_WARN_UNDECLARED_SELECTOR[arch=*]" = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				"GCC_WARN_UNINITIALIZED_AUTOS[arch=*]" = YES_AGGRESSIVE;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				"GCC_WARN_UNKNOWN_PRAGMAS[arch=*]" = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
+				"GCC_WARN_UNUSED_FUNCTION[arch=*]" = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				"GCC_WARN_UNUSED_LABEL[arch=*]" = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				"GCC_WARN_UNUSED_PARAMETER[arch=*]" = YES;
+				"GCC_WARN_UNUSED_VALUE[arch=*]" = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				"GCC_WARN_UNUSED_VARIABLE[arch=*]" = YES;
+				GENERATE_PROFILING_CODE = YES;
+				"GENERATE_PROFILING_CODE[sdk=*]" = YES;
+				"INCLUDED_SOURCE_FILE_NAMES[arch=*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				"OTHER_CFLAGS[arch=*]" = "";
+				"OTHER_CPLUSPLUSFLAGS[arch=*]" = "$(OTHER_CFLAGS)";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				"RUN_CLANG_STATIC_ANALYZER[arch=*]" = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				"SDKROOT[arch=*]" = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS[arch=*]" = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				"SWIFT_COMPILATION_MODE[arch=*]" = wholemodule;
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				"SWIFT_DISABLE_SAFETY_CHECKS[arch=*]" = YES;
+				"SWIFT_ENFORCE_EXCLUSIVE_ACCESS[arch=*]" = on;
+				"SWIFT_INCLUDE_PATHS[arch=*]" = "";
+				"SWIFT_INSTALL_OBJC_HEADER[arch=*]" = YES;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
+				"SWIFT_OBJC_INTERFACE_HEADER_NAME[arch=*]" = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				"SWIFT_OPTIMIZATION_LEVEL[arch=*]" = "-O";
+				"SWIFT_PRECOMPILE_BRIDGING_HEADER[arch=*]" = YES;
+				"SWIFT_REFLECTION_METADATA_LEVEL[arch=*]" = all;
+				"SWIFT_SUPPRESS_WARNINGS[arch=*]" = NO;
+				"SWIFT_SWIFT3_OBJC_INFERENCE[arch=*]" = Default;
+				"SWIFT_TREAT_WARNINGS_AS_ERRORS[arch=*]" = NO;
+				"SWIFT_VERSION[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				"WARNING_CFLAGS[arch=*]" = "";
 			};
 			name = Release;
 		};
 		0CCB89BF19CE05F800068ED6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				"SDKROOT[arch=*]" = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = build;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 			};
 			name = Debug;
 		};
 		0CCB89C019CE05F800068ED6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				"ARCHS[sdk=*]" = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_SEARCH_PATHS = "";
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				"SDKROOT[arch=*]" = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = build;
+				"VALID_ARCHS[sdk=*]" = "arm64 arm64e armv7 armv7s";
 			};
 			name = Release;
 		};
@@ -1032,7 +1977,11 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CommonCrypto";
@@ -1047,7 +1996,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "${SRCROOT}/CommonCrypto";
@@ -1065,7 +2018,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1082,7 +2038,10 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1098,7 +2057,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1115,7 +2078,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTestAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosdeveloperzone.IDZSwiftCommonCryptoTestAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -1138,7 +2105,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
@@ -1164,7 +2135,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
@@ -1182,7 +2157,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1200,7 +2179,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCryptoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--OSX-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1222,7 +2205,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
 				SDKROOT = appletvos;
@@ -1247,7 +2234,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
 				SDKROOT = appletvos;
@@ -1264,7 +2255,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1280,7 +2275,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--tvOS-Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
@@ -1303,7 +2302,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--watchOS-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
 				SDKROOT = watchos;
@@ -1329,7 +2332,11 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = IDZSwiftCommonCrypto/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosdeveloperzone.IDZSwiftCommonCrypto--watchOS-";
 				PRODUCT_NAME = IDZSwiftCommonCrypto;
 				SDKROOT = watchos;
