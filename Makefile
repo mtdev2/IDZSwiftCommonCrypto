@@ -1,7 +1,7 @@
 REPO=IDZPodspecs
 NAME=IDZSwiftCommonCrypto
 
-IOS_VERSION=9.2
+IOS_VERSION=11
 
 PG=README.playground
 RSRC_DIR=$(PG)/Resources
@@ -38,6 +38,10 @@ clean:
 # push tags to GitHub
 push_tags:
 	git push origin --tags
+
+# Lint the pod locally
+lint_lib:
+	pod lib lint --verbose ${NAME}.podspec --sources=https://github.com/iosdevzone/IDZPodspecs.git
 
 # Lint the podspec
 lint_pod:
